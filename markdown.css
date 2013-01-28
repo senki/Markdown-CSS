@@ -1,0 +1,24 @@
+/** CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) **/
+
+body{margin:0 auto;padding:14px;max-width:960px;color:#444;font-size:14px;font-family:Calibri, sans-serif;line-height:1.5;}
+h1,h2,h3,h4{color:#111;font-weight:400;line-height:1.125;}
+h1,h2,h3,h4,h5,p{margin-bottom:14px;padding:0;}
+h1{font-size:300%;}
+h2{font-size:225%;}
+h3{font-size:150%;}
+h4{font-size:131.25%;}
+h5{font-size:112.5%;}
+a{margin:0;padding:0;color:#09f;vertical-align:baseline;}
+a:hover{color:#f60;text-decoration:none;}
+a:visited{color:purple;}
+ul,ol{margin:0;padding:0;}
+li{margin-left:2em;}
+p,ul,ol{max-width:540px;}
+ul + p,ol + p{margin-bottom:14px;}
+pre{padding:0 14px;max-width:600px;white-space:pre-wrap;}
+code{color:#111;font-size:15px;font-family:'Courier New', monospace;}
+blockquote{margin-left:0;padding:0 2em;max-width:476px;border-left:.5em solid #eee;}
+blockquote cite{color:#bfbfbf;}
+blockquote cite:before{content:'\2014 \00A0';}
+blockquote p{max-width:460px;color:#666;}
+hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
