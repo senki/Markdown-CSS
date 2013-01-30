@@ -1,7 +1,6 @@
-<link href="markdown.css" rel="stylesheet"></link>
-﻿# This is a really big title (H1)
+﻿﻿# This is a really big title (H1) 
 
-	as of 2013.01.28
+*as of 2013.01.28*
 
 Nullam lobortis dictum erat ultrices placerat. Quisque dolor nisl, pulvinar at volutpat at, **gravida** vel erat. Donec et magna ipsum. Nulla tristique hendrerit porttitor. *Pellentesque* in tincidunt purus. Integer hendrerit tellus et urna lobortis congue. Nulla feugiat euismod dui, id facilisis metus scelerisque a. Sed et arcu non lectus egestas tempus eu feugiat ligula.   
 *Text source: [http://lipsum.com/](http://lipsum.com/ "Lorem Ipsum")*

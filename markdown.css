@@ -13,7 +13,7 @@ a:hover{color:#f60;text-decoration:none;}
 a:visited{color:purple;}
 ul,ol{margin:0;padding:0;}
 li{margin-left:2em;}
-p,ul,ol{max-width:540px;}
+p,ul,ol,img{max-width:540px;}
 ul + p,ol + p{margin-bottom:14px;}
 pre{padding:0 14px;max-width:600px;white-space:pre-wrap;}
 code{color:#111;font-size:15px;font-family:'Courier New', monospace;}
@@ -22,3 +22,6 @@ blockquote cite{color:#bfbfbf;}
 blockquote cite:before{content:'\2014 \00A0';}
 blockquote p{max-width:460px;color:#666;}
 hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
+.compact {line-height:1}
+.compact h1, .compact h2, .compact h3, .compact h4, .compact h5 {margin-top:8px;line-height:1;}
+.compact h1, .compact h2, .compact h3, .compact h4, .compact h5, .compact p{margin-bottom:8px;}
