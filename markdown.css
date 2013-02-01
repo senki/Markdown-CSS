@@ -28,6 +28,7 @@ blockquote cite{color:#bfbfbf;}
 blockquote cite:before{content:'\2014 \00A0';}
 blockquote p{max-width:460px;color:#666;}
 hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
+.comment{display:inline-block;padding:2px 8px;margin-top:14px;}
 .footnotes{font-style:italic;}
 .compact {line-height:1}
 .compact h1, .compact h2, .compact h3, .compact h4, .compact h5 {margin-top:8px;line-height:1;}
