@@ -27,7 +27,7 @@ blockquote{margin-left:0;padding:0 2em;max-width:476px;border-left:.5em solid #e
 blockquote cite{color:#bfbfbf;}
 blockquote cite:before{content:'\2014 \00A0';}
 blockquote p{max-width:460px;color:#666;}
-hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
+hr{margin:14px auto;width:540px;color:#999;text-align:left;}
 .comment{display:inline-block;margin-top:14px;padding:2px 8px;background:yellowgreen;}
 .footnotes{font-style:italic;}
 .compact {line-height:1;}
@@ -39,5 +39,5 @@ hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
 	body{orphans:2;widows:3;}
 	h1,h2,h3,h4,h5,p{page-break-inside:avoid;page-break-after:avoid;}
 	ol,ul{page-break-inside:avoid;}
-	hr{display:none;color:white;page-break-before:always;}
+	hr{display:none;margin:0;color:white;page-break-before:always;}
 }
