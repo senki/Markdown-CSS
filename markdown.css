@@ -1,7 +1,12 @@
-/** CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) **/
+/**
+*** My own basic markdown stylsheet [https://github.com/senki/Markdown]
+*** Inspired by [http://markdownpad.com/] and [http://kevinburke.bitbucket.org/markdowncss]
+*** 2013.02.01
+*** by Senki
+**/
 
-body{margin:0 auto;padding:14px;max-width:960px;color:#444;font-size:14px;font-family:Calibri, sans-serif;line-height:1.5;}
-h1,h2,h3,h4{color:#111;font-weight:400;line-height:1.125;}
+body{margin:0 auto;padding:14px;max-width:960px;color:#444;font-size:14px;font-family:Helvetica,Calibri,sans-serif;line-height:1.5;}
+h1,h2,h3,h4,h5{color:#111;font-weight:400;line-height:1.125;max-width:600px}
 h1,h2,h3,h4,h5,p{margin-bottom:14px;padding:0;}
 h1{font-size:300%;}
 h2{font-size:225%;}
@@ -14,7 +19,8 @@ a:visited{color:purple;}
 ul,ol{margin:0;padding:0;}
 li{margin-left:2em;}
 p,ul,ol,img{max-width:540px;}
-ul + p,ol + p{margin-bottom:14px;}
+ul + p,ol + p{margin-bottom:8px;}
+span{background-color:yellowgreen;}
 pre{padding:0 14px;max-width:600px;white-space:pre-wrap;}
 code{color:#111;font-size:15px;font-family:'Courier New', monospace;}
 blockquote{margin-left:0;padding:0 2em;max-width:476px;border-left:.5em solid #eee;}
@@ -22,6 +28,15 @@ blockquote cite{color:#bfbfbf;}
 blockquote cite:before{content:'\2014 \00A0';}
 blockquote p{max-width:460px;color:#666;}
 hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
+.footnotes{font-style:italic;}
 .compact {line-height:1}
 .compact h1, .compact h2, .compact h3, .compact h4, .compact h5 {margin-top:8px;line-height:1;}
 .compact h1, .compact h2, .compact h3, .compact h4, .compact h5, .compact p{margin-bottom:8px;}
+/** PRINT ONLY **/
+@page{margin-top:20mm;margin-right:35mm;margin-bottom:30mm;margin-left:35mm;}
+@media print {
+	body{orphans:2;widows:3;}
+	h1,h2,h3,h4,h5,p{page-break-inside:avoid;page-break-after:avoid;}
+	ol,ul{page-break-inside:avoid;}
+	hr{color:white;display:none;page-break-before:always;}
+}
