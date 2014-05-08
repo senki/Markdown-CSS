@@ -1,4 +1,4 @@
-﻿﻿# This is a really big title (H1) 
+# This is a really big title (this is H1) 
 
 *as of 2013.01.28*
 
@@ -13,7 +13,7 @@ Nullam lobortis dictum erat ultrices placerat. Quisque dolor nisl, pulvinar at v
 - Donec commodo faucibus ante, non posuere erat imperdiet et.
 - Morbi eget purus lectus, consequat bibendum quam.
 
-## Second Level Header
+## Second Level Header (this is H2)
 
 
 Nam nec quam velit. Vivamus tristique vulputate posuere. Morbi et nibh purus, vitae pulvinar urna. Donec dignissim, mi sed auctor interdum, sapien tellus consequat lorem, sagittis pellentesque eros tellus eu tortor. Sed nulla urna, hendrerit eget suscipit nec, imperdiet ac turpis. Phasellus consequat, justo quis hendrerit adipiscing, dui mi adipiscing tellus, in dapibus ipsum ligula eget justo. Vestibulum aliquet dui vitae libero rhoncus non ornare nulla venenatis.
@@ -22,7 +22,7 @@ Nam nec quam velit. Vivamus tristique vulputate posuere. Morbi et nibh purus, vi
 
 -------
 
-### Blockquotes (H3)
+### Blockquotes (this is H3)
 
 This is what a sample blockquote looks like:
 
@@ -30,12 +30,12 @@ This is what a sample blockquote looks like:
 
 > Mauris vulputate volutpat molestie. Sed sollicitudin consequat eros id adipiscing. Cras ligula est, vulputate quis imperdiet in, lobortis quis risus. Maecenas et neque sem, ut ultricies augue. Duis enim nulla, ultrices a viverra dapibus, malesuada fringilla justo. Donec leo tellus, tincidunt sodales scelerisque id, blandit sed odio. In hac habitasse platea dictumst. Morbi justo odio, tincidunt non volutpat sit amet, ultricies vel risus. Mauris scelerisque vestibulum eleifend. Suspendisse mauris nunc, porta eget fermentum sit amet, laoreet pellentesque lectus. Donec ipsum est, viverra vitae venenatis in, pulvinar ac mauris.
 
-### Lists (H3)
+### Lists (this is H3)
 
 Here's an example of lists. I'm making this sentence really long to
 test the line wrapping.
 
-#### Unordered List (H4)
+#### Unordered List (this is H4)
 
 - Suspendisse vel lectus enim, ac fermentum quam.
 - Morbi commodo orci ut eros malesuada tristique.
@@ -47,7 +47,7 @@ test the line wrapping.
 	- Suspendisse bibendum semper dolor, id ultrices massa euismod quis.
 - Fusce faucibus velit sed enim luctus eu tempor arcu accumsan.
 
-#### Oredered List (H4)
+#### Oredered List (this is H4)
 
 1. Vestibulum ut tellus sed elit consectetur semper ut eu ipsum.
 1. Quisque sollicitudin magna at lacus dictum pharetra.
@@ -60,7 +60,7 @@ test the line wrapping.
 1. Nulla semper magna id felis adipiscing vel faucibus odio suscipit.
 1. Maecenas quis nisl arcu, ut cursus mauris.
 
-##### You can nesting it at any level (H5)
+##### You can nesting it at any level (this is H5)
 
 *(There is no H6 defined in this CSS)*
 
@@ -75,9 +75,9 @@ test the line wrapping.
 								1. Nulla semper magna id felis adipiscing vel faucibus odio suscipit.
 									1. Proin consectetur mauris ac nunc porttitor a adipiscing enim lobortis.
 
-##### There is no forms defined in this CSS  (H5)
+##### There is no forms defined in this CSS  (this is H5)
 
-### Code Blocks  (H3)
+### Code Blocks  (this is H3)
 
 Code can either be `inline`, like `this`, or it can be on its own line. Here's the CSS I'm using to style this document:
 
@@ -107,4 +107,4 @@ Code can either be `inline`, like `this`, or it can be on its own line. Here's t
 	blockquote p{max-width:460px;color:#666;}
 	hr{margin:0 auto 0 0;width:540px;color:#999;text-align:left;}
 
-### Headers is in **normal weight**, so you can add **bold** to it (h3)
+### Headers is in *normal weight*, so you can add **bold** to it (this is h3)

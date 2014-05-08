@@ -5,14 +5,14 @@
 *** by Senki
 **/
 
-body{margin:0 auto;padding:14px;max-width:960px;color:#444;font-size:14px;font-family:Helvetica,Calibri,sans-serif;line-height:1.5;}
-h1,h2,h3,h4,h5{max-width:600px;color:#111;font-weight:400;line-height:1.125;}
+body{margin:0 auto;padding:14px;max-width:960px;color:#444;font-size:16px;font-family:Helvetica,Calibri,sans-serif;line-height:1.25;}
+h1,h2,h3,h4,h5{max-width:600px;color:#111;font-weight:400;}
 h1,h2,h3,h4,h5,p{margin-bottom:14px;padding:0;}
-h1{font-size:300%;}
-h2{font-size:225%;}
-h3{font-size:150%;}
-h4{font-size:131.25%;}
-h5{font-size:112.5%;}
+h1{font-size:2em;line-height:1.25em;}
+h2{font-size:1.625em;line-height:1.15384615em;}
+h3{font-size:1.375em;line-height:1.13636364em;}
+h4{font-size:1.125em;line-height:1.11111111em;}
+h5{font-size:1.125em;line-height:1em;}
 a{margin:0;padding:0;color:#09f;vertical-align:baseline;}
 a:hover{color:#f60;text-decoration:none;}
 a:visited{color:purple;}
@@ -27,7 +27,7 @@ blockquote{margin-left:0;padding:0 2em;max-width:476px;border-left:.5em solid #e
 blockquote cite{color:#bfbfbf;}
 blockquote cite:before{content:'\2014 \00A0';}
 blockquote p{max-width:460px;color:#666;}
-hr{margin:14px auto;width:540px;color:#999;text-align:left;}
+hr{margin:14px 0;width:540px;color:#999;text-align:left;}
 .comment{display:inline-block;margin-top:14px;padding:2px 8px;background:yellowgreen;}
 .footnotes{font-style:italic;}
 .compact {line-height:1;}
